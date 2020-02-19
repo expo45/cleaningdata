@@ -1,0 +1,89 @@
+The data contains four ID variables and 79 measurement variables. The four ID variables are as follows:
+1 subject #subject # from 1:30
+2 group #either "test" or "training"
+3 activity #numerical code for activity, 1:6
+4 activity_label #character label for activity 
+  (1: WALKING, 2: WALKING_UPSTAIRS, 3: WALKING_DOWNSTAIRS, 4: SITTING, 5: STANDING, 6: LYING)
+
+The 79 measurement variables represent either individual measures or averages of measures by subject
+and activity in the all_data_mean_sd and sub_act_means tables, respectively. All measurements are
+normalized on a scale of [-1,1]. More details can be found in the README file found in the data directory
+5 tBodyAcc_mean_X
+6 tBodyAcc_mean_Y
+7 tBodyAcc_mean_Z
+8 tBodyAcc_std_X
+9 tBodyAcc_std_Y
+10 tBodyAcc_std_Z
+11 tGravityAcc_mean_X
+12 tGravityAcc_mean_Y
+13 tGravityAcc_mean_Z
+14 tGravityAcc_std_X
+15 tGravityAcc_std_Y
+16 tGravityAcc_std_Z
+17 tBodyAccJerk_mean_X
+18 tBodyAccJerk_mean_Y
+19 tBodyAccJerk_mean_Z
+20 tBodyAccJerk_std_X
+21 tBodyAccJerk_std_Y
+22 tBodyAccJerk_std_Z
+21 tBodyGyro_mean_X
+24 tBodyGyro_mean_Y
+25 tBodyGyro_mean_Z
+26 tBodyGyro_std_X
+27 tBodyGyro_std_Y
+28 tBodyGyro_std_Z
+29 tBodyGyroJerk_mean_X
+30 tBodyGyroJerk_mean_Y
+31 tBodyGyroJerk_mean_Z
+32 tBodyGyroJerk_std_X
+33 tBodyGyroJerk_std_Y
+34 tBodyGyroJerk_std_Z
+35 tBodyAccMag_mean
+36 tBodyAccMag_std
+37 tGravityAccMag_mean
+38 tGravityAccMag_std
+39 tBodyAccJerkMag_mean
+40 tBodyAccJerkMag_std
+41 tBodyGyroMag_mean
+42 tBodyGyroMag_std
+43 tBodyGyroJerkMag_mean
+44 tBodyGyroJerkMag_std
+45 fBodyAcc_mean_X
+46 fBodyAcc_mean_Y
+47 fBodyAcc_mean_Z
+48 fBodyAcc_std_X
+49 fBodyAcc_std_Y
+50 fBodyAcc_std_Z
+51 fBodyAcc_meanFreq_X
+52 fBodyAcc_meanFreq_Y
+53 fBodyAcc_meanFreq_Z
+54 fBodyAccJerk_mean_X
+55 fBodyAccJerk_mean_Y
+56 fBodyAccJerk_mean_Z
+57 fBodyAccJerk_std_X
+58 fBodyAccJerk_std_Y
+59 fBodyAccJerk_std_Z
+60 fBodyAccJerk_meanFreq_X
+61 fBodyAccJerk_meanFreq_Y
+62 fBodyAccJerk_meanFreq_Z
+63 fBodyGyro_mean_X
+64 fBodyGyro_mean_Y
+65 fBodyGyro_mean_Z
+66 fBodyGyro_std_X
+67 fBodyGyro_std_Y
+68 fBodyGyro_std_Z
+69 fBodyGyro_meanFreq_X
+70 fBodyGyro_meanFreq_Y
+71 fBodyGyro_meanFreq_Z
+72 fBodyAccMag_mean
+73 fBodyAccMag_std
+74 fBodyAccMag_meanFreq
+75 fBodyBodyAccJerkMag_mean
+76 fBodyBodyAccJerkMag_std
+77 fBodyBodyAccJerkMag_meanFreq
+78 fBodyBodyGyroMag_mean
+79 fBodyBodyGyroMag_std
+80 fBodyBodyGyroMag_meanFreq
+81 fBodyBodyGyroJerkMag_mean
+82 fBodyBodyGyroJerkMag_std
+83 fBodyBodyGyroJerkMag_meanFreq
