@@ -97,3 +97,7 @@ for(i in 6:ncol(all_data_mean_sd)){
 
 colnames(sub_act_means) <- colnames(all_data_mean_sd)
 rownames(sub_act_means) <- 1:nrow(sub_act_means)
+
+all_data_mean_sd <- select(all_data_mean_sd, -sub_act)
+sub_act_means <- select(sub_act_means, -sub_act)
+remove(i)
